@@ -30,9 +30,13 @@
             align-self: center;
         }
 
-        #name span {
+        #name .name {
             font-size: 1.5em;
             font-weight: 500;
+        }
+        #name .pos {
+            font-size: 1.2em;
+            font-weight: 300;
         }
 
         #base-info span {
@@ -89,11 +93,14 @@
 <body>
 <div class="body">
     <div class="header">
-        <div id="name"><span>程山川</span></div>
+        <div id="name">
+            <span class="name">程山川</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="pos">期待岗位：C++ 后台开发</span>
+        </div>
         <div id="base-info">
             <div><span><i class="far fa-envelope"></i>&nbsp;Email : ch.shanchuan@gmail.com</span></div>
             <div><span><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;Mobile : (+86)18940874730</span></div>
-            <div><span><i class="fab fa-github"></i>&nbsp;GitHub : https://github.com/webhugo</span></div>
+            <div><span><i class="fab fa-github"></i>&nbsp;GitHub : https://github.com/geknow</span></div>
         </div>
     </div>
     <div class="education title">
@@ -119,13 +126,32 @@
         <div class="line"></div>
         <div class="skill-content content">
             <ul>
-                <li>掌握 Java、NodeJS, 了解 Python/C/C++ 等语言, 熟悉Linux基本操作, 对 Redis 等 NoSQL和 MySQL 等数据库能基本使用。</li>
-                <li>熟悉 NodeJS 后端开发, 熟悉 Koa 等框架的使用，熟悉 Sequelize、Mocha 等类库的使用, 能够完成正常的后端逻辑，有项目经验。</li>
-                <li>熟悉 JavaWeb 后端开发, 熟悉 Spring、Mybatis 等框架的使用, 并尝试开发框架 : (https://github.com/webhugo/kobe_framework),
+                <li>掌握 C++、Java、NodeJS等语言, 熟悉Linux基本操作, 对 Redis 等 NoSQL和 MySQL 等数据库能基本使用。</li>
+                <li>了解 C++ 后台开发逻辑，了解 C++11 和 STL库 和 Unix环境编程 等, 有相关的工作经验。</li>
+                <li>熟悉 JavaWeb 后端开发, 熟悉 Spring、Mybatis 等框架的使用, 并尝试开发框架 : (https://github.com/geknow/kobe_framework),
                     能够完成正常的后端逻辑, 有项目经验。
+                <li>熟悉 NodeJS 后端开发, 熟悉 Koa 等框架的使用，熟悉 Sequelize、Mocha 等类库的使用, 能够完成正常的后端逻辑，有项目经验。</li>
                 </li>
                 <li>具备前端开发能力, 了解 React、Redux, 熟悉 Webpack、Gulp 等前端构建工具, 有项目经验。</li>
             </ul>
+        </div>
+    </div>
+
+    <div class="experience title">
+        <p class="main-title"><span><i class="fa fa-briefcase"></i>&nbsp;实习经历</span></p>
+        <div class="line"></div>
+        <div class="experience-content">
+            <div class="project content">
+                <p class="project-info"><span><span class="project-name">腾讯微信事业群</span><span>·企业微信部门</span></span><span>July 2018 – 至今</span>
+                </p>
+                <p class="position">企业微信后台开发</p>
+                <div class="detail">
+                    <ul>
+                        <li>基本介绍：使用 C++ 作为开发语言，Vim作为编辑器，使用企业内部自研的后台框架。</li>
+                        <li>主要工作：维护好友申请表，增量增加、对内客服在线状态修改、群信息投递修改协程库、saas版和本地版之间的旁路逻辑等</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -185,7 +211,6 @@
         <div class="other-content  content">
             <ul>
                 <li>全国计算机程序设计大赛一等奖</li>
-                <li>个人博客 : https://webhugo.github.io/</li>
             </ul>
         </div>
     </div>
